@@ -1,0 +1,43 @@
+body {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+canvas {
+  border: 3px solid #6a5acd;
+  background: radial-gradient(circle at center, #0a0f2d, #000);
+}
+
+#score {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#gameOver {
+  margin-top: 20px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: #6a5acd;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #8d7cff;
+}
